@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navBar {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  top: 0;
+  font-family: 'Gudea', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(136, 136, 136);
+}
+
+
+a {
+  color: darkgray;
+}
+
+a:visited {
+  color: darkgray;
+}
+
+a.glow, a.glow:focus {
+	text-decoration: none;
+	color:white;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+}
+
+a.glow:hover, a.glow:active, a.glow:focus {
+	text-shadow: 2px 2px 6px rgb(255, 255, 255);
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+.homeInfoCard {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-family: 'Gudea', sans-serif;
+  background: linear-gradient(to top right, rgb(26, 12, 51) 5%, rgb(3, 1, 12) 95%);
+  color: whitesmoke;
+  
+}
+
+.homePageList {
+  margin-bottom: 26%;
+}
+
+.aboutMe {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top right, rgb(26, 12, 51) 5%, rgb(3, 1, 12) 95%);
+  color: white;
+}
+
+.contactMePage {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  font-family: 'Gudea', sans-serif;
+  background: linear-gradient(to top right, rgb(26, 12, 51) 5%, rgb(3, 1, 12) 95%);
+}
+
+.emailLink {
+  width: 20%;
+  margin: auto;
+  margin-bottom: 14.5%;
+  font-size: 10vh;
+  text-align: center;
+  font-family: 'Gudea', sans-serif;
+  box-shadow: 3px 3px 4px black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  background-color:rgba(0, 0, 0, .5);
+}
+
+.contactList {
+  width: 72%;
+  margin: auto;
+  padding-top: 30px;
+  padding-right: 70px;
+}
+
+.projectPage {
+  text-align: center;
+  font-family: 'Gudea', sans-serif;
+  color: whitesmoke;
+  padding-bottom: 55px;
+  padding-top: 20px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: auto;
+  background: linear-gradient(to top right, rgb(26, 12, 51) 5%, rgb(3, 1, 12) 95%);
+}
+
+.wrapper {
+  background-color:rgba(0, 0, 0, .5);
+  width: 38%;
+  margin: auto;
+  box-shadow: 3px 3px 4px black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  border-color: black;
+  overflow: auto;
+}
+
+.projectList {
+  overflow: auto;
+  padding-left: 95px;
+}
+
+.footer {
+  color: whitesmoke;
+  margin-top: 50px;
+  height: 9px;
+  text-align: center;
+  font-family: 'Gudea', sans-serif;
+  left:0;
+  bottom:0;
+  right:0;
+  border-top: solid;
+  clear: both;
+  border-color: rgb(136,136,136);
+  border-width: 1px;
+}
